@@ -111,6 +111,10 @@ public class usuarios {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
+
+   
+
+    
      
     
 }

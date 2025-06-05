@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import modelo.conexion;
 import modelo.usuarios;
 
@@ -18,7 +19,7 @@ public class DaoUsuario {
 
     public usuarios login(String usuario, String pass) {
         usuarios us = null;
-        String sql = "SELECT * FROM usuarios WHERE usuario = ? AND password = ?";
+        String sql = "SELECT * FROM usuarios WHERE usuario = ? AND pass = AES_ENCRYPT(?, 'clave')";
 
         try {
             con = cn.conectar();
@@ -29,14 +30,20 @@ public class DaoUsuario {
 
             if (rs.next()) {
                 us = new usuarios();
-                us.setUsuario(rs.getString("usuario"));
-                us.setPassword(rs.getString("password"));
-                // Puedes añadir más campos si tu tabla tiene, por ejemplo:
-                // us.setNombre(rs.getString("nombre"));
+                us.setIdusuario(rs.getInt(1));
+                us.setNombre(rs.getString(2));
+                us.setApellido(rs.getString(3));
+                us.setDocumento(rs.getString(4));
+                us.setTelefono(rs.getString(6));
+                us.setCorreo(rs.getString(7));
+                us.setTipoUsuario(rs.getString(8));
+                us.setUsuario(rs.getString(9));
+                us.setPassword(rs.getString(10));
+                us.setDireccion(rs.getString(5));
             }
 
         } catch (SQLException ex) {
-            Logger.getLogger(DaoUsuario.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showConfirmDialog(null, ex);
         }
 
         return us;
