@@ -3,10 +3,6 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="undecorated" type="boolean" value="true"/>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[1007, 775]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -27,31 +23,23 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="JPanelRound0" pref="1239" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanelRound1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="JPanelRound0" pref="744" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanelRound1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="modelo.JPanelRound" name="JPanelRound0">
+    <Container class="modelo.JPanelRound" name="jPanelRound1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
-        </Property>
-        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[1007, 765]"/>
         </Property>
         <Property name="roundBottomLeft" type="int" value="25"/>
         <Property name="roundBottomRight" type="int" value="25"/>
@@ -63,21 +51,15 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanelRound2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="contenedor" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanelRound2" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
+              <Component id="jPanelRound2" alignment="0" max="32767" attributes="0"/>
               <Component id="contenedor" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
@@ -86,7 +68,7 @@
         <Container class="modelo.JPanelRound" name="jPanelRound2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="a4" green="4c" red="e" type="rgb"/>
+              <Color blue="be" green="96" red="25" type="rgb"/>
             </Property>
             <Property name="roundBottomLeft" type="int" value="25"/>
             <Property name="roundBottomRight" type="int" value="25"/>
@@ -98,38 +80,56 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" pref="121" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btcHome" min="-2" pref="133" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnCategorias" min="-2" pref="133" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btcClientes" min="-2" pref="133" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="rSButtonMaterialIconDos2" min="-2" pref="133" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btcAcercaDe" min="-2" pref="133" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnSalir" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                                          <Component id="btnProvedores" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                                          <Component id="btcSalidas" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jSeparator1" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" pref="121" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnHome" min="-2" pref="145" max="-2" attributes="0"/>
-                                  <Component id="btnCategorias" min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Component id="btnClientes" min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Component id="btnEntradas" min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Component id="btnProvedores" min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Component id="btnSalidas" min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Component id="btnUsuarios" min="-2" pref="142" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnSalir" min="-2" pref="156" max="-2" attributes="0"/>
-                                  <Component id="btnAcercaDe" min="-2" pref="133" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btcUsuarios" min="-2" pref="133" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -137,29 +137,29 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                      <Component id="btnHome" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="btcHome" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="btnCategorias" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnClientes" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btcClientes" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnEntradas" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="rSButtonMaterialIconDos2" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="btnProvedores" min="-2" pref="39" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnSalidas" min="-2" pref="39" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnUsuarios" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btcSalidas" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btcUsuarios" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
                       <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnAcercaDe" min="-2" pref="39" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="btnSalir" min="-2" pref="72" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btcAcercaDe" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="btnSalir" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace pref="71" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -168,10 +168,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Arial" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Font name="Segoe UI" size="18" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="INVENTARIO"/>
               </Properties>
@@ -179,7 +176,7 @@
             <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnCategorias">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CATEGORIAS"/>
                 <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
@@ -190,10 +187,10 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCategoriasActionPerformed"/>
               </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnEntradas">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="rSButtonMaterialIconDos2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ENTRADAS"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -202,27 +199,24 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEntradasActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSButtonMaterialIconDos2ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnHome">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btcHome">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="HOME"/>
                 <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
                   <Value id="HOME"/>
                 </Property>
               </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHomeActionPerformed"/>
-              </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnClientes">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btcClientes">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CLIENTES"/>
                 <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
@@ -230,13 +224,13 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClientesActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcClientesActionPerformed"/>
               </Events>
             </Component>
             <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnProvedores">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="PROVEDORES"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -245,10 +239,10 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProvedoresActionPerformed"/>
               </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnAcercaDe">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btcAcercaDe">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ACERCA DE"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -257,13 +251,15 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAcercaDeActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcAcercaDeActionPerformed"/>
               </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
             </Component>
             <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnSalir">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="66" green="66" red="ff" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="SALIR"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -275,10 +271,10 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalirActionPerformed"/>
               </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnUsuarios">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btcUsuarios">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="USUARIOS"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -287,13 +283,13 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUsuariosActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcUsuariosActionPerformed"/>
               </Events>
             </Component>
-            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnSalidas">
+            <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btcSalidas">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="a4" green="4c" red="e" type="rgb"/>
+                  <Color blue="be" green="96" red="25" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="SALIDAS"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -302,34 +298,33 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalidasActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcSalidasActionPerformed"/>
               </Events>
-            </Component>
-            <Component class="javax.swing.JSeparator" name="jSeparator1">
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="contenedor">
+        <Container class="modelo.JPanelRound" name="contenedor">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder thickness="2"/>
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
               </Border>
             </Property>
+            <Property name="roundBottomLeft" type="int" value="25"/>
+            <Property name="roundBottomRight" type="int" value="25"/>
+            <Property name="roundTopLeft" type="int" value="25"/>
+            <Property name="roundTopRight" type="int" value="25"/>
           </Properties>
 
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="978" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="689" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="740" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
